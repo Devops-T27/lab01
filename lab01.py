@@ -1,3 +1,4 @@
+#list of dictionary
 student=[{
         "name":"alex",
         "age":20,
@@ -20,10 +21,11 @@ student=[{
         "notes":(17,15,18,20,14,15)}
         ]
 
+#should print the averge of each student
 def studentAverge(student):
     for s in student:
         #code here
         pass
 
-
+#call function
 studentAverge(student)
